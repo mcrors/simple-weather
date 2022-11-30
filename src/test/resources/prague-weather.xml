@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<location>
+		<name>Prague</name>
+		<region>Hlavni mesto Praha</region>
+		<country>Czech Republic</country>
+		<lat>50.08</lat>
+		<lon>14.47</lon>
+		<tz_id>Europe/Prague</tz_id>
+		<localtime_epoch>1646555832</localtime_epoch>
+		<localtime>2022-03-06 9:37</localtime>
+	</location>
+	<current>
+		<last_updated_epoch>1646555400</last_updated_epoch>
+		<last_updated>2022-03-06 09:30</last_updated>
+		<temp_c>0</temp_c>
+		<temp_f>32</temp_f>
+		<is_day>1</is_day>
+		<condition>
+			<text>Partly cloudy</text>
+			<icon>//cdn.weatherapi.com/weather/64x64/day/116.png</icon>
+			<code>1003</code>
+		</condition>
+		<wind_mph>0</wind_mph>
+		<wind_kph>0</wind_kph>
+		<wind_degree>0</wind_degree>
+		<wind_dir>N</wind_dir>
+		<pressure_mb>1022</pressure_mb>
+		<pressure_in>30.18</pressure_in>
+		<precip_mm>0</precip_mm>
+		<precip_in>0</precip_in>
+		<humidity>69</humidity>
+		<cloud>50</cloud>
+		<feelslike_c>-1.1</feelslike_c>
+		<feelslike_f>30.1</feelslike_f>
+		<vis_km>10</vis_km>
+		<vis_miles>6</vis_miles>
+		<uv>2</uv>
+		<gust_mph>3.4</gust_mph>
+		<gust_kph>5.4</gust_kph>
+	</current>
+</root>

@@ -29,8 +29,8 @@ public class Main {
 	}
 
 	private void start() throws Exception {
-		InputStream dataIn = new YahooRetriever().retrieve(this.city);
-		Weather weather = new YahooParser().parse(dataIn);
+		InputStream dataIn = new WeatherRetriever().retrieve(this.city);
+		Weather weather = new WeatherParser().parse(dataIn);
 		System.out.println( new WeatherFormatter().format(weather) );
 	}
 }

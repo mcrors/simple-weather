@@ -11,9 +11,9 @@ import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
 
 
-public class YahooParser {
+public class WeatherParser {
 
-	private static final Logger log = Logger.getLogger(YahooParser.class);
+	private static final Logger log = Logger.getLogger(WeatherParser.class);
 
 	public Weather parse(InputStream inputStream) throws Exception {
 		Weather weather = new Weather();
